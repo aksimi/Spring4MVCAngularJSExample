@@ -15,6 +15,13 @@ public class IndexController {
 	  @RequestMapping(method = RequestMethod.GET)
 	    public String getIndexPage() {
 	        return "UserManagement";
+	    
+		
+	  @RequestMapping(value="/save",method = RequestMethod.POST)
+	    public String save() {
+	        return "save";
 	    }
+		
+		
 
 }
